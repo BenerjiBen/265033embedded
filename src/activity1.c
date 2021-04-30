@@ -15,11 +15,16 @@
 
 void peripheral_init(void)
 {	
-	DDRD |= (1<<PD2); // set PD2=1 for LED
-    DDRD &= ~(1<<PD0); //clear bit
-    PORTD |= (1<<PD0); //set bit PD0 for SeatSwitch
-    DDRD &= ~(1<<PD1); //clear bit
-    PORTD |= (1<<PD1); //set bit PD0 for HeaterSwitch
+	// set PD2=1 for LED
+	DDRD |= (1<<PD2); 
+	//clear bit
+    DDRD &= ~(1<<PD0);
+	//set bit PD0 for SeatSwitch
+    PORTD |= (1<<PD0); 
+	//clear bit
+    DDRD &= ~(1<<PD1); 
+	//set bit PD0 for HeaterSwitch
+    PORTD |= (1<<PD1); 
 }
 
 void TurnLED_ON(){
