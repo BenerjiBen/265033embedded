@@ -2,7 +2,7 @@
 #define __ACTIVITY_1_H__
 /**
  * @file activity1.h
- * @author Hemanth
+ * @author Benerjiben
  * @brief Header file for activity1
  * @version 0.1
  * @date 2021-04-27
@@ -12,9 +12,6 @@
  */
 
 
-/**
- * Macros
- */
 
 #define F_CPU 16000000UL 	/**< Clock Frequency of MCU is 16 MHz */
 #define LED_PORT (PORTD)    /**< LED Port Number */
@@ -22,16 +19,11 @@
 #define BUTTON_SENSOR  (PORTD0)   /**< Port for Button Sensor  */
 #define TEMP_SENSOR  (PORTD1)   /**< Port for Temperature Sensor   */
 
-/**
- * Include files
- */ 
+
 #include <util/delay.h>
 #include <avr/io.h>
 
 
-/**
- * Function Definitions
- */
 
 /**
  * @brief Initialize all the Peripherals and pin configurations
