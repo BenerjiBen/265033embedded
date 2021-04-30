@@ -1,7 +1,7 @@
   
 /**
  * @file activity1.c
- * @author BenerjiBen
+ * @author BenerjiBen (benerjilekkala@gmail.com)
  * @brief User defined utilities, to define pins and ports to Blink an LED ON/OFF 
  * @version 0.1
  * @date 2021-04-29
