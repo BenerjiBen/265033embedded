@@ -1,6 +1,6 @@
 /**
  * @file activity2.c
- * @author BenerjiBen
+ * @author BenerjiBen (benerjilekkala@gmail.com)
  * @brief  to get the ADC values 
  * @version 0.1
  * @date 2021-04-29
