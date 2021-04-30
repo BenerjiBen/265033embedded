@@ -1,3 +1,12 @@
+/**
+ * @file activity2.c
+ * @author BenerjiBen
+ * @brief  to get the ADC values 
+ * @version 0.1
+ * @date 2021-04-29
+ * 
+ * @copyright Copyright (c) 2021
+ */
 #include "activity2.h"
 
 void InitADC()
