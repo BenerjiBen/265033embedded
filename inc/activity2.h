@@ -2,7 +2,7 @@
 #define __ACTIVITY_2_H__
 /**
  * @file activity2.h
- * @author Hemanth
+ * @author BenerjiBen
  * @brief Header file for activity2
  * @version 0.1
  * @date 2021-04-27
@@ -11,15 +11,11 @@
  * 
  */
 
-/**
- * Include files
- */ 
+
 #include <util/delay.h>
 #include <avr/io.h>
 
-/**
- * Function Definitions
- */
+
 
 /**
  * @brief Initialize the registers for ADC setup
